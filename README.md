@@ -10,4 +10,4 @@ The project was tested on different browsers to ensure the project functioned in
 ---
 Some code such as the home-section took inspiration from the ‘bootstrap-lesson’ workspace created in Cloud9. The CSS code was used to create a landing-style homepage; I changed the ‘min-height’ value and replaced it with a value with the rem measurement and also removed the ‘display:flex’ value as I wanted the display to be block. I also used the ‘opaque-overlay’ class and values from the ‘Bootstrap-lesson’ for my home-section as it was required for making the home-section text more easier to read.
 ---
-NOTE: I was unable to download the audio files from the relevant github repository and so the audio sub-directory attached is blank although I have written the HTML code as if the audio files were present.
+NOTE: I was unable to download the audio files from the relevant github repository and so there is no audio sub-directory attached, although I have written the HTML code as if the audio files were present.
