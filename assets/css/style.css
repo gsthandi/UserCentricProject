@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+
+body {
+    background: #333;
+    color: #fff; 
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------Navbar-*/
+
+.navbar {
+    border-bottom: #d4bc51 3px solid;
+    opacity: 0.8; 
+}
+
+.nav-link {
+    letter-spacing: 0.05rem;
+}
+
+/*------------------------------------------Landing Section-*/
+
+#home-section {
+    min-height: 43.75rem;
+
+    background: url(http://www.idolator.com/wp-content/uploads/sites/10/2012/02/monkees1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-inner {
+    padding-top: 9.375rem;
+}
+
+.jumbotron {
+    background: transparent;
+    margin-top: 7.5rem;
+    margin-bottom: 0;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+/*------------------------------------------Listen-*/
+
+.song-choice {
+    margin-bottom: 0.2rem
+}
+
+
+/*------------------------------------------Subscribe and Bookings-*/
+
+.card {
+    background: transparent;
+    border: none;
+    margin-bottom: 3rem;
+
+}
+
+/*------------------------------------------Social Links-*/
+
+.social-links li a i {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.7rem 0;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.social-links li a i:hover {
+    background: #626268;
+}
+
+
+.header-divder {
+    width: 75%;
+    color: #000;
+}
+
+
+/*------------------------------------------Links and Buttons-*/
+
+.btn-link:hover {
+    text-decoration: none;
+}    
+
+.my-music {
+    padding: 0.6rem;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+.my-music:hover {
+    padding: 0.6rem;
+    color: #f8f9fa;
+    border: none;
+    text-decoration: none;
+}
+
+.my-tickets {
+    color: #343a40;
+    text-decoration: none;
+}
+.my-tickets:hover {
+    color: #0051ff;
+    text-decoration: none;
+}
+
+.subscribe-now {
+    color: #343a40;
+    text-decoration: none;
+}
+.subscribe-now:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.my-email {
+    color: #fff;
+    text-decoration: none;
+}
+.my-email:hover {
+    color: #343a40;
+    text-decoration: none;
+}
