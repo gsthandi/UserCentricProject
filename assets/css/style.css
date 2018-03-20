@@ -37,7 +37,7 @@ body {
     justify-content: center;
 }
 
-#home-section .dark-overlay {
+#home-section .my-overlay {
     position: absolute;
     top: 0;
     left: 0;
